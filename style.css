@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background: rgb(116, 144, 179);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 290px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.card-img {
+  height: 180px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.img1 {
+  background-image: url(guitar1.jpg);
+}
+.img2 {
+  background-image: url(guitar1.jpg);
+}
+.img3 {
+  background-image: url(guitar1.jpg);
+}
+.card h2 {
+  padding: 10px;
+}
+.card p {
+  padding: 10px;
+}
+.card a {
+  background: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 40px;
+  text-decoration: none;
+}
+.card:hover {
+  background: rgb(62, 60, 60);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
